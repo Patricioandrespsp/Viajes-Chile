@@ -15,9 +15,59 @@
 </head>
 <body>
 
-    
+<!-- NavBar fijo en la parte superior, con logo y texto, link a diferentes secciones con smooth scroll -->
+<!-- Se borra BG-Body-Tertiary para dejar el navbar transparente -->
+<!-- Se agrega una clase para Texto y Logo en la barra de navegacion "Navbar-brand" -->
+<!-- Se agrega fixed-top para dejar fijo el menu en la parte superior -->
+<!-- Se agrega clase Text-white para texto blanco en el Navbar -->
+<!-- Se reemplaza Ul class actual por NavBar-nav Ms-Auto para dejar el texto a la derecha y el logo con el textoa la izquierda -->
 
-<!-- Scripts de Javascript -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container ">
+        <a class="navbar-brand text-white" href="#">
+            <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Viajes Chile
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scripts de Javascript -->
 
 <link rel="javascripts" href="./assets/js/scripts.js">
 
