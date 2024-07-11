@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    }
+.navbar-brand img {
+
+    size: 10px;
+}
+
+.fa-solid {
+
+    background-color: rgb(65, 65, 230);
+}
+
+
+.card-body {
+
+background-color: aqua;
+
+}
+
+
+
+
+.destacados {
+
+    background-color: black;
+    color: white;
+}
+
+.quienes-somos {
+
+    background-color: black;
+    color: white;
+}
+
+
+.viajes-chile {
+    text-align: center;
+
+}
+
+.formulario {
+
+    background-color: black;
+    color: white;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+
+footer {
+
+    background-color: aqua;
+}
