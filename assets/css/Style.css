@@ -7,11 +7,6 @@ body {
     
 }
 
-
-html    {
-    scroll-behavior: smooth;
-}
-
 .favicon {
 background-color: aqua;
 color: white;
@@ -24,6 +19,10 @@ width: auto;
 margin: auto;
 
 }
+
+html {
+    scroll-behavior: smooth;
+   }
 
 .card-body  {
     background-color: #00ffff;
