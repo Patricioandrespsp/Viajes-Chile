@@ -3,11 +3,18 @@ body {
     border: 0px;
     padding: 0px;
     margin: 0px;
+    font-family: "Roboto";
     
+}
+
+
+html    {
+    scroll-behavior: smooth;
 }
 
 .favicon {
 background-color: aqua;
+color: white;
 
 }
 
